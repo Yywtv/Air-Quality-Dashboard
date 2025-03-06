@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("main_data.csv")
+df = pd.read_csv("./dashboard/main_data.csv")
 df['date'] = pd.to_datetime(df[['year', 'month', 'day']]) # membuat kolom baru untuk memudahkan pemetaan tanggal
 
 st.title("Hourly Air Quality Tracker") # judul aplikasi

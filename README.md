@@ -1,4 +1,4 @@
-# Air-Quality-Dashboard
+# ｡𖦹°‧ Air-Quality-Dashboard ‧°𖦹｡
 
 ## Setup environment
 ```
